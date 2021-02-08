@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <title>New Story</title>
+  <link rel = "stylesheet" href = "style.css">
+  <script src = "script.js"></script>
+ </head>
+ <script>
+  getChoice1();
+  getChoice2();
+  getChoice3();
+  getChoice4();
+ </script>
+ <body>
+  <h1>To Investigate or Not</h1>
+ <div id = "story">
+  <br>
+  Spring cleaning. The time to throw open the windows and get the dust out of the house. For Liz
+  this means entering the attic and going through another box of her family's things. These boxes
+  were given to her when the last of her family passed away and every year she opens one box. Each
+  box is labeled with the name of the family member it belonged to. However, while moving the
+  remaining boxes in a way that won't completely block off access to most of the attic, she finds a 
+  box that isn't labeled. After opening it she finds pictures from the early 1900s with her Grandparents and their friends.
+  Some of the pictures are labeled with the names of the people in the photos. At the bottom of
+  the box is her Grandparents' journal detailing the adventures they went on.
+  <br>
+  Should she investigate the journal and notebooks?
+  <br>
+ </div>
+  <input type = "text" size = "30" id = "choice" value = "Enter Yes or No">
+  <button id = "btnSubmit" onclick = "getChoice1()">Continue</button>
+
+  <input type = "text" size = "30" id = "choice2" value = "Enter Yes or No" style = "display:none">
+  <button id = "btnSubmit2" onclick = "getChoice2()" style = "display:none">Continue</button>
+
+  <input type = "text" size = "30" id = "choice3" value = "Enter Follow or Stay Home" style = "display:none">
+  <button id = "btnSubmit3" onclick = "getChoice3()" style = "display:none">Continue</button>
+
+  <input type = "text" size = "30" id = "choice4" value = "Enter Accept or Refuse" style = "display:none">
+  <button id = "btnSubmit4" onclick = "getChoice4()" style = "display:none">Continue</button>
+
+  <input type = "text" size = "30" id = "choice5" value = "Enter Yes or No" style = "display:none">
+  <button id = "btnSubmit5" onclick = "getChoice5()" style = "display:none">Continue</button>
+ </body>
+
+</html>
