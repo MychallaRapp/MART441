@@ -2,7 +2,7 @@ var ImageTags = ["image1","image2","image3","image4","image5","image6","image7",
 
 var BlankImagePath = "images/mainImage.JPG";
 
-var ActualImages = new array();
+var ActualImages = new array(10);
 
 function printBlanks()
 {
@@ -16,7 +16,7 @@ function createRandomImageArray()
 {
   var ActualImagePath = ["images/bat.png","images/circle.jpg","images/ghost.png","images/leaf.jpg","images/octagon.jpg","images/rectangle.png","images/square.png","images/star.png","images/trapezoid.png","images/triangle.png"];
   var Count = [0,0];
-  while(ActualImages.length < 4)
+  while(ActualImages.length < 10)
   {
     var RandomNumber = Math.floor (Math.random() * ActualImagePath.length)
     if(Count[RandomNumber] < 2)
