@@ -1,0 +1,38 @@
+body
+{
+  background-color: lavender;
+}
+.divTable
+{
+  display: table;
+  width: 100%;
+}
+.divTableRow
+{
+  display: table-row;
+}
+.divTableHeading
+{
+  background-color: #a2faf2;
+  display: table-header-group;
+}
+.divTableCell, .divTableHead
+{
+  border: .5px solid #000000;
+  display: table-cell;
+  padding: 1px 4px;
+}
+.divTableHeading
+{
+  background-color: #ffd9c6
+  display: table-header-group;
+}
+.divTableFoot
+{
+  background-color: #ffd9c6
+  display: table-header-group;
+}
+.divTableBody
+{
+  display: table-row-group;
+}
