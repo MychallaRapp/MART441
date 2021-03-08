@@ -1,0 +1,26 @@
+#circle
+{
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 25px;
+  background: cyan;
+  position: absolute;
+  left: 0px;
+  top: 400px;
+}
+.stuff
+{
+  background: grey;
+  color: black;
+}
+#third
+{
+  background: orange;
+  color: black;
+}
+body
+{
+  background-color: lavender;
+}
